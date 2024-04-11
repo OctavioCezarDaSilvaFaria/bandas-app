@@ -8,7 +8,7 @@ export default function MusicItem ({music, onPlayPause, isPlaying, navigation}) 
             <Image source={{uri: `http://10.0.2.2:3000/assets/${music.album_image}` }} 
             style={styles.albumImage}/>
             <View style={styles.musicInfo}>
-              <TouchableOpacity onPredd={() => {}}>
+              <TouchableOpacity onPress={() => {}}>
                 <View>
                     <Text style={isPlaying ? styles.playingTitle : styles.musicTitle}>
                         {music.title}
